@@ -44,7 +44,7 @@ Acabamento Interno: crit, a6, after a5, 25d
 Acabento Externo: crit, a7, after a6, 15d
 section Final do Projeto
 Inspeção Final e Entrega da Casa: crit, a8, after a7, 5d
-
+```
 
 # Metodo-Agil-Crystal
 ```mermaid
