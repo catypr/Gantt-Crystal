@@ -112,16 +112,12 @@ Implementação Final no Servidor e Entrega ao Cliente: a10, after a9, 20d
 ```mermaid
 graph TD
    subgraph Entrega 
-     A1["Configuração do Ambiente de DesenvolvimenYo E20"]:::laranja
-     A2["Criação do Banco de Dados E50"]:::laranja
-     A3["Programação do Módulo de Login E50"]:::laranja
-     A4["Programação do CRUD C8"]:::branco
-     A5["Implementação do Upload de Logotipo E50"]:::laranja
-     A6["Desenvolvimento dos Relatórios E50"]:::laranja
-     A7["Configuração do Painel Administrativo E50"]:::laranja
-     A8["Testes Unitários e de Integração E50"]:::laranja
-     A9["Testes de Usabilidade com Usuários convidados E50"]:::laranja
-     A10["Implementação Final do Serviço e Entrega ao Cliente E100"]:::vermelho
+     A1["Entrega 1 C8"]:::branco
+     A2["Entrega 2 E100"]:::vermelho
+     A3["Enterga 3 E20"]:::amarelo
+     A4["Entrega 4 E8"]:::amarelo
+     A5["Entrega 5 E50"]:::laranja
+     A6["Entrega Final E100"]:::vermelho
 
 A1 --> A2 --> A3 --> A4 --> A5 --> A6 --> A7 --> A8 --> A9 --> A10
 end
