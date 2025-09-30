@@ -89,7 +89,7 @@ graph TD
 
 ```
 
-# Gantt - Crystal / Avaliativa
+# Gantt - Avaliativa / Sistema de Cadastro de Empresas Parceiras
 ``` mermaid
 gantt
 title Sistema de Cadastro de Empresas Parceiras
