@@ -140,7 +140,7 @@ Análise de Viabilidade: crit, a2, after a1, 5d
 
 section Desenvolvimento
 Design da Arquitetura: crit, b1, after a2, 7d
-Implementação do Backend, crit, b2, after b1, 15d
+Implementação do Backend: crit, b2, after b1, 15d
 
 section Testes
 Testes Unitários: crit, c1, after b2, 10d
