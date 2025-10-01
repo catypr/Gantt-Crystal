@@ -128,3 +128,25 @@ classDef amarelo fill:#FFD80D, stroke:#000,stroke-width:1px;
 classDef laranja fill:#FFA233, stroke:#000,stroke-width:1px;
 classDef vermelho fill:#E64C3C, stroke:#000,stroke-width:1px;
 ```
+
+# Metodo Gantt / Sistema de Bibliotec Online
+```mermaid
+gantt
+title Sistema de Biblioteca Online
+dateFormat YYYY-MM-DD
+section Planejamento
+Levantamento de Requisitos: crit, a1, 2025-10-01, 10d
+Análise de Viabilidade: crit, a2, after a1, 5d
+
+section Desenvolvimento
+Design da Arquitetura: crit, b1, after a2, 7d
+Implementação do Backend, crit, b2, after b1, 15d
+
+section Testes
+Testes Unitários: crit, c1, after b2, 10d
+Testes de Integração: crit, c2, after c1, 7d
+
+section Implementação
+Implementação no Ambiente de Produção: crit, d1, after c2, 5d
+Treinamento dos Usuários: crit, d2, after d1, 3d
+``` 
