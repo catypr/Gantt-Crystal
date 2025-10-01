@@ -150,3 +150,13 @@ section Implementação
 Implementação no Ambiente de Produção: crit, d1, after c2, 5d
 Treinamento dos Usuários: crit, d2, after d1, 3d
 ``` 
+
+# Metodo-Crystal / Aplicativo de Delivery de Comida
+```mermaid
+graph TD
+subgraph Classificação
+    A1["Essencial 20"]:::laranja
+
+    A1
+%% Definição de estilo
+classDef laranja fill:#FFA233, stroke:#000,stroke-width:1px;
